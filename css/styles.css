@@ -83,6 +83,17 @@ ol {
   color: #434455;
 }
 
+.nav-address-link {
+  color: #434455;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+}
+
+.nav-address-link:hover,
+.nav-address-link:focus {
+  color: #404bbf;
+}
 .hero {
   width: 100%;
   background-color: #2e2f42;
