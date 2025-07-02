@@ -24,7 +24,6 @@ ol {
 }
 
 .nav {
-  display: flex;
   justify-content: space-between;
   align-items: center;
   height: 72px;
@@ -32,7 +31,6 @@ ol {
   padding-right: 156px;
 }
 .nav-list {
-  display: flex;
   list-style: none;
   padding-left: 0;
 }
@@ -65,15 +63,13 @@ ol {
 }
 
 .nav-address-list {
-  display: flex;
   list-style: none;
   padding-left: 0;
   justify-content: flex-end;
 }
 .nav-address-item {
-  display: flex;
   margin-left: 40px;
-  padding: 0;
+
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -95,13 +91,9 @@ ol {
   color: #404bbf;
 }
 .hero {
-  width: 100%;
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .hero-title {
@@ -124,13 +116,9 @@ ol {
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
   color: #ffffff;
-  border-radius: 4px;
-  padding: 16px 32px;
 
   height: 56px;
   cursor: pointer;
-  margin-top: 48px;
-  align-items: center;
 }
 
 .btn:hover,
@@ -142,7 +130,6 @@ ol {
 }
 
 .about {
-  width: 1128px;
   padding-top: 120px;
   padding-bottom: 120px;
   margin-left: auto;
@@ -150,7 +137,6 @@ ol {
 }
 
 .about-list {
-  display: flex;
   list-style: none;
   justify-content: space-between;
   padding-left: 0;
@@ -159,8 +145,6 @@ ol {
 }
 
 .about-item {
-  box-sizing: border-box;
-  width: 100%;
   margin-left: 0;
   margin: 0 24px 0 0;
 }
@@ -191,7 +175,6 @@ ol {
 }
 
 .team {
-  width: 100%;
   background-color: #f4f4fd;
   padding-top: 120px;
   padding-bottom: 120px;
@@ -199,9 +182,6 @@ ol {
   margin-right: auto;
 }
 .team-members {
-  width: 1128px;
-  display: flex;
-  text-align: center;
   justify-content: space-between;
   list-style: none;
   padding-left: 0;
@@ -212,12 +192,7 @@ ol {
 }
 
 .team-member-card {
-  width: 264px;
-  height: 380px;
   background-color: #ffffff;
-  border-radius: 0 0 4px 4px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .member-name {
   font-weight: 500;
@@ -234,16 +209,14 @@ ol {
 }
 
 .portfolio {
-  width: 100%;
   padding: 120px 0;
   margin-left: auto;
   margin-right: auto;
 }
 
-.portfolio-content {
-  width: 100%;
-  display: flex;
-}
+/*.portfolio-content {
+ 
+}*/
 
 .portfolio-title {
   text-transform: capitalize;
@@ -257,9 +230,6 @@ ol {
   margin-bottom: 72px;
 }
 .portfolio-list {
-  width: 1128px;
-  display: flex;
-  flex-wrap: wrap;
   list-style: none;
   justify-content: space-between;
   margin-left: auto;
@@ -268,8 +238,6 @@ ol {
 }
 .portfolio-item {
   border: 1px solid #e7e9fc;
-  width: 360px;
-  height: 420px;
 }
 
 .portfolio-item-title {
@@ -290,14 +258,12 @@ ol {
 }
 
 .footer {
-  width: 100%;
   background-color: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
 .footer-content {
-  width: 264px;
   margin-left: 156px;
 }
 .footer-text {
