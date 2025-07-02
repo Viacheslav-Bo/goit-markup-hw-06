@@ -38,7 +38,15 @@ ol {
 }
 
 .nav-list-link {
-  color: #2e2f42;
+  color: #434455;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+.nav-list-link:hover,
+.nav-list-link:focus {
+  color: #404bbf;
 }
 
 .nav-item {
@@ -52,6 +60,10 @@ ol {
 }
 
 .nav-address {
+  font-style: normal;
+}
+
+.nav-address-list {
   display: flex;
   list-style: none;
   padding-left: 0;
