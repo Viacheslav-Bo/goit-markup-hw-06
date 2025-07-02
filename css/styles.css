@@ -221,6 +221,7 @@ ol {
 }
 
 .portfolio-title {
+  text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
@@ -256,6 +257,9 @@ ol {
   margin-top: 32px;
 }
 .portfolio-item-text {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
   padding-left: 16px;
   margin-bottom: 32px;
 }
