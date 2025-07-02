@@ -8,6 +8,13 @@ body {
 a {
   text-decoration: none;
 }
+a:hover,
+a:focus {
+  color: #404bbf;
+}
+a :active {
+  color: #404bbf;
+}
 
 ul,
 ol {
@@ -81,6 +88,14 @@ ol {
   cursor: pointer;
   margin-top: 48px;
   align-items: center;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #404bbf;
+}
+.btn:active {
+  background-color: #404bbf;
 }
 
 .about {
