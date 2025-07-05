@@ -4,9 +4,18 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 a {
   text-decoration: none;
 }
+
+/* -----------------------------------------------------------------------------------
+Без понняття чому я це написав, бо нижче в коді задав ховер для класу .nav-list-link 
+Поки закоментую на всяк випадок бо не впевнений щодо :active
+
 a:hover,
 a:focus {
   color: #404bbf;
@@ -14,14 +23,17 @@ a:focus {
 a :active {
   color: #404bbf;
 }
+---------------------------------------------------------------------------------------*/
 
 ul,
 ol {
   list-style-type: none;
 }
+
 /*.nav {
   
 }*/
+
 .nav-list {
   list-style: none;
 }
@@ -29,7 +41,7 @@ ol {
 .nav-list-link {
   color: #2e2f42;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   font-weight: 500;
 }
@@ -60,7 +72,7 @@ ol {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   font-style: normal;
   color: #434455;
@@ -69,7 +81,7 @@ ol {
 .address-list-link {
   color: #434455;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -97,7 +109,7 @@ ol {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
   color: #ffffff;
@@ -113,7 +125,7 @@ ol {
 }
 
 /*.about {
- 
+
 }*/
 
 .about-list {
@@ -127,14 +139,14 @@ ol {
 .about-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .about-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -142,7 +154,7 @@ ol {
   text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
-  line-height: 111%;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -161,14 +173,14 @@ ol {
 .member-name {
   font-weight: 500;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .member-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -177,14 +189,14 @@ ol {
 }*/
 
 /*.portfolio-content {
- 
+
 }*/
 
 .portfolio-title {
   text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
-  line-height: 111%;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -199,13 +211,13 @@ ol {
 .portfolio-item-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .portfolio-item-text {
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -230,7 +242,7 @@ ol {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 18px;
-  line-height: 117%;
+  line-height: 1.17;
   letter-spacing: 0.03em;
 }
 .logo-studio {
@@ -239,7 +251,7 @@ ol {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 18px;
-  line-height: 117%;
+  line-height: 1.17;
   letter-spacing: 0.03em;
 }
 
@@ -249,6 +261,6 @@ ol {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 18px;
-  line-height: 117%;
+  line-height: 1.17;
   letter-spacing: 0.03em;
 }
