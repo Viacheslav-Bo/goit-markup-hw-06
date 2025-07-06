@@ -193,7 +193,7 @@ a :active {
   background-color: #404bbf;
 }
 
-.visually-hidden {
+h2.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -262,7 +262,6 @@ a :active {
   text-align: center;
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
-  padding-bottom: 32px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
@@ -358,7 +357,6 @@ a :active {
   letter-spacing: 0.03em;
   margin-right: 76px;
   display: inline-block;
-  margin-bottom: 16px;
 }
 
 .logo-studio {
