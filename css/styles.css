@@ -193,7 +193,7 @@ a :active {
   background-color: #404bbf;
 }
 
-h2.visually-hidden {
+h2 .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -359,6 +359,18 @@ h2.visually-hidden {
   display: inline-block;
 }
 
+.logo-web-footer {
+  font-family: "Raleway", sans-serif;
+  color: #4d5ae5;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
+}
 .logo-studio {
   font-family: "Raleway", sans-serif;
   color: #f4f4fd;
