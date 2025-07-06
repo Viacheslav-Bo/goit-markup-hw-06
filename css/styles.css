@@ -245,6 +245,10 @@ a :active {
 .team {
   background-color: #f4f4fd;
 }
+.member-info {
+  padding: 32px 0;
+}
+
 .team-members {
   list-style: none;
   display: flex;
@@ -269,13 +273,14 @@ a :active {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  padding-top: 32px;
+  text-align: center;
 }
 .member-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 /*.portfolio {
