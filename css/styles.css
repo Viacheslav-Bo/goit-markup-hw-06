@@ -43,8 +43,8 @@ img {
 
 .container {
   max-width: 1158px;
-  margin: 0;
-  padding: 0 156px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
 }
 
 section {
@@ -72,7 +72,6 @@ a :active {
 .nav {
   display: flex;
   align-items: center;
-  gap: 76px;
 }
 
 .nav-list {
@@ -87,6 +86,7 @@ a :active {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-weight: 500;
+  padding: 24px 0;
 }
 
 .nav-list-link:hover,
@@ -180,6 +180,9 @@ a :active {
   padding: 16px 32px;
   border-radius: 4px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 
 .btn:hover,
@@ -191,15 +194,7 @@ a :active {
 }
 
 .about-title-main {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  white-space: nowrap;
-  border: 0;
+  visibility: hidden;
 }
 
 .about-list {
@@ -208,10 +203,10 @@ a :active {
   gap: 24px;
 }
 
-/*.about-item {
+.about-item {
   flex: 1;
   width: calc((100% - 72px) / 4);
-}*/
+}
 
 .about-title {
   font-weight: 500;
@@ -219,13 +214,13 @@ a :active {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .about-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-top: 8px;
 }
 
 .team-title {
@@ -337,7 +332,6 @@ a :active {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   width: 264px;
-  margin-top: 16px;
 }
 
 .logo-web {
@@ -348,6 +342,9 @@ a :active {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo-studio {
