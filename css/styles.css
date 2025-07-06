@@ -193,7 +193,7 @@ a :active {
   background-color: #404bbf;
 }
 
-h2 .visually-hidden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
