@@ -87,6 +87,7 @@ a :active {
   letter-spacing: 0.02em;
   font-weight: 500;
   padding: 24px 0;
+  display: block;
 }
 
 .nav-list-link:hover,
@@ -138,20 +139,9 @@ a :active {
   color: #404bbf;
 }
 
-.hero .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .hero {
   background-color: #2e2f42;
   padding: 188px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
 
 .hero-title {
@@ -165,6 +155,7 @@ a :active {
 
   font-size: 56px;
   line-height: 1.07;
+  margin: 0 auto;
 }
 
 .btn {
@@ -177,12 +168,15 @@ a :active {
   color: #ffffff;
   cursor: pointer;
   margin-top: 48px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 16px 32px;
   border-radius: 4px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   min-width: 169px;
   height: 56px;
   border: none;
+  display: block;
 }
 
 .btn:hover,
@@ -213,7 +207,6 @@ a :active {
 }
 
 .about-item {
-  flex: 1;
   width: calc((100% - 72px) / 4);
 }
 
@@ -345,7 +338,7 @@ a :active {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  width: 264px;
+  max-width: 264px;
 }
 
 .logo-web {
@@ -368,7 +361,6 @@ a :active {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  margin-right: 76px;
   display: inline-block;
   margin-bottom: 16px;
 }
