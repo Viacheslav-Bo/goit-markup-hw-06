@@ -141,7 +141,15 @@ a :active {
 
 .hero {
   background-color: #2e2f42;
-  padding: 188px 0;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-title {
@@ -210,6 +218,23 @@ a :active {
   width: calc((100% - 72px) / 4);
 }
 
+.about-icons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4fd;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  max-width: 264px;
+  height: 112px;
+  margin-bottom: 8px;
+}
+
+.about-icons {
+  width: 64px;
+  height: 64px;
+}
+
 .about-title {
   font-weight: 500;
   font-size: 20px;
@@ -276,6 +301,28 @@ a :active {
   text-align: center;
 }
 
+.member-icons-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.member-icons-item {
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50% 50%;
+  padding: 12px;
+}
+
+.member-icons {
+  width: 16px;
+  height: 16px;
+  fill: #f4f4fd;
+}
+
 /*.portfolio {
   
 }*/
@@ -330,6 +377,9 @@ a :active {
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
 }
 
 .footer-text {
@@ -339,6 +389,15 @@ a :active {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+}
+
+.footer-icons-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-link-container {
+  width: 208px;
 }
 
 .logo-web {
@@ -382,4 +441,33 @@ a :active {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+}
+
+.footer .container {
+  margin: 0 120px 0 156px;
+  padding: 0;
+}
+
+.footer-icons-item {
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50% 50%;
+  padding: 8px;
+}
+
+.footer-icons {
+  width: 24px;
+  height: 24px;
+  fill: #f4f4fd;
+}
+
+.social-media {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
 }
