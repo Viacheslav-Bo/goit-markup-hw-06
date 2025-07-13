@@ -51,27 +51,9 @@ section {
   padding: 120px 0;
 }
 
-.about-item svg {
-  width: 64px;
-  height: 64px;
-}
-
-/* .member-icons-item svg {
-  width: 16px;
-  height: 16px;
-  fill: #f4f4fd;
-} */
 /* -----------------------------------------------------------------------------------
-Без понняття чому я це написав, бо нижче в коді задав ховер для класу .nav-list-link 
-Поки закоментую на всяк випадок бо не впевнений щодо :active
 
-a:hover,
-a:focus {
-  color: #404bbf;
-}
-a :active {
-  color: #404bbf;
-}
+
 ---------------------------------------------------------------------------------------*/
 .header .container {
   display: flex;
@@ -317,9 +299,7 @@ a :active {
   margin-top: 8px;
 }
 
-.member-icon-link svg {
-  width: 16px;
-  height: 16px;
+.member-icons {
   fill: #f4f4fd;
 }
 
