@@ -50,6 +50,11 @@ img {
 section {
   padding: 120px 0;
 }
+
+svg {
+  width: 64px;
+  height: 64px;
+}
 /* -----------------------------------------------------------------------------------
 Без понняття чому я це написав, бо нижче в коді задав ховер для класу .nav-list-link 
 Поки закоментую на всяк випадок бо не впевнений щодо :active
@@ -140,6 +145,7 @@ a :active {
 }
 
 .hero {
+  max-width: 1440px;
   background-color: #2e2f42;
   background-image: linear-gradient(
       to bottom,
@@ -230,10 +236,10 @@ a :active {
   margin-bottom: 8px;
 }
 
-.about-icons {
+/* .about-icons {
   width: 64px;
   height: 64px;
-}
+} */
 
 .about-title {
   font-weight: 500;
@@ -303,19 +309,20 @@ a :active {
 
 .member-icons-list {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  /* justify-content: space-around; */
+  justify-content: center;
   align-items: center;
+  gap: 24px;
   margin-top: 8px;
 }
 
-.member-icons-item {
+/* .member-icons-item {
   width: 40px;
   height: 40px;
   background-color: #4d5ae5;
   border-radius: 50% 50%;
   padding: 12px;
-}
+} */
 
 .member-icons {
   width: 16px;
@@ -323,6 +330,16 @@ a :active {
   fill: #f4f4fd;
 }
 
+.member-icon-link {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50% 50%;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /*.portfolio {
   
 }*/
