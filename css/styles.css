@@ -51,12 +51,12 @@ section {
   padding: 120px 0;
 }
 
-.about-icons-container svg {
+.about-item svg {
   width: 64px;
   height: 64px;
 }
 
-.member-icon-link svg {
+.member-icons-item svg {
   width: 16px;
   height: 16px;
   fill: #f4f4fd;
@@ -336,7 +336,7 @@ a :active {
   justify-content: center;
 }
 
-..member-icon-link:hover,
+.member-icon-link:hover,
 .member-icon-link:focus {
   background-color: #404bbf;
 }
