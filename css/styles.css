@@ -51,9 +51,15 @@ section {
   padding: 120px 0;
 }
 
-svg {
+.about-icons-container svg {
   width: 64px;
   height: 64px;
+}
+
+.member-icon-link svg {
+  width: 16px;
+  height: 16px;
+  fill: #f4f4fd;
 }
 /* -----------------------------------------------------------------------------------
 Без понняття чому я це написав, бо нижче в коді задав ховер для класу .nav-list-link 
@@ -236,11 +242,6 @@ a :active {
   margin-bottom: 8px;
 }
 
-/* .about-icons {
-  width: 64px;
-  height: 64px;
-} */
-
 .about-title {
   font-weight: 500;
   font-size: 20px;
@@ -324,12 +325,6 @@ a :active {
   padding: 12px;
 } */
 
-.member-icons {
-  width: 16px;
-  height: 16px;
-  fill: #f4f4fd;
-}
-
 .member-icon-link {
   width: 100%;
   height: 100%;
@@ -339,6 +334,11 @@ a :active {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+..member-icon-link:hover,
+.member-icon-link:focus {
+  background-color: #404bbf;
 }
 /*.portfolio {
   
