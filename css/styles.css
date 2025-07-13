@@ -51,16 +51,16 @@ section {
   padding: 120px 0;
 }
 
-.about-item svg {
+.about-icons-container svg {
   width: 64px;
   height: 64px;
 }
 
-.member-icons-item svg {
+/* .member-icons-item svg {
   width: 16px;
   height: 16px;
   fill: #f4f4fd;
-}
+} */
 /* -----------------------------------------------------------------------------------
 Без понняття чому я це написав, бо нижче в коді задав ховер для класу .nav-list-link 
 Поки закоментую на всяк випадок бо не впевнений щодо :active
@@ -317,13 +317,11 @@ a :active {
   margin-top: 8px;
 }
 
-/* .member-icons-item {
-  width: 40px;
-  height: 40px;
-  background-color: #4d5ae5;
-  border-radius: 50% 50%;
-  padding: 12px;
-} */
+.member-icons {
+  width: 16px;
+  height: 16px;
+  fill: #f4f4fd;
+}
 
 .member-icon-link {
   width: 100%;
