@@ -51,7 +51,7 @@ section {
   padding: 120px 0;
 }
 
-.about-icons-container svg {
+.about-item svg {
   width: 64px;
   height: 64px;
 }
@@ -317,7 +317,7 @@ a :active {
   margin-top: 8px;
 }
 
-.member-icons {
+.member-icon-link svg {
   width: 16px;
   height: 16px;
   fill: #f4f4fd;
