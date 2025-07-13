@@ -461,6 +461,11 @@ section {
   justify-content: center;
 }
 
+.footer-icon-link:hover,
+.footer-icon-link:focus {
+  background-color: #31d0aa;
+}
+
 .social-media {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -469,4 +474,9 @@ section {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+}
+
+.footer-main-container {
+  display: flex;
+  align-items: baseline;
 }
