@@ -77,6 +77,7 @@ section {
 }
 
 .nav-list-link {
+  color: #2e2f42;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -157,6 +158,8 @@ section {
 /* ----------ПЕРША СЕКЦІЯ---------- */
 .hero {
   max-width: 1440px;
+  padding: 188px 0;
+  margin: 0 auto;
   background-color: #2e2f42;
   background-image: linear-gradient(
       to bottom,
@@ -324,6 +327,11 @@ section {
   margin-top: 8px;
 }
 
+.member-icons-item {
+  width: 40px;
+  height: 40px;
+}
+
 .member-icons {
   fill: #f4f4fd;
 }
@@ -333,7 +341,6 @@ section {
   height: 100%;
   background-color: #4d5ae5;
   border-radius: 50% 50%;
-  padding: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -406,7 +413,7 @@ section {
   letter-spacing: 0.02em;
 }
 
-overlay .portfolio-item-title {
+.portfolio-item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -431,18 +438,15 @@ overlay .portfolio-item-title {
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
-  display: flex;
 }
 
 .footer-main-container {
   display: flex;
   align-items: baseline;
-  margin-left: 156px;
 }
 
 .footer-logo-div {
   margin-right: 120px;
-  padding: 0;
 }
 
 .footer-text {
@@ -452,10 +456,6 @@ overlay .portfolio-item-title {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-}
-
-.footer-link-container {
-  width: 208px;
 }
 
 .social-media {
