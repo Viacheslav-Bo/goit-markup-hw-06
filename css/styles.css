@@ -541,3 +541,153 @@ section {
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
+
+/* -----------------MODAL--------------- */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2e2f42;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modal-overlay.is-open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  width: 408px;
+  height: 584px;
+  gap: 8px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
+    0 2px 1px 0 rgba(0, 0, 0, 0.2);
+  padding: 72px 24px 24px 24px;
+}
+
+.modal-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.modal-label-checkbox {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.modal-checkbox-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+
+.modal-checkbox-text a {
+  line-height: 1.33333;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #4d5ae5;
+}
+
+.modal-checkbox {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+/* .modal-icon {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  fill: #4d5ae5;
+} */
+
+.modal-label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+
+.modal-input {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  margin-top: 4px;
+}
+
+.modal-input:hover,
+.modal-input:focus {
+  border: 1px solid #4d5ae5;
+}
+
+.modal-input:active {
+  border: 1px solid #4d5ae5;
+}
+
+.modal-textarea {
+  max-width: 360px;
+  height: 120px;
+  resize: none;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  margin-top: 4px;
+}
+
+.modal-textarea:hover,
+.modal-textarea:focus {
+  border: 1px solid #4d5ae5;
+}
+
+.modal-textarea:active {
+  border: 1px solid #4d5ae5;
+}
+
+.modal-btn {
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: #4d5ae5;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  align-self: center;
+}
