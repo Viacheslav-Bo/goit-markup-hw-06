@@ -709,6 +709,10 @@ section {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 16px;
+}
+
+.modal-form-comt {
   margin-bottom: 8px;
 }
 
@@ -740,13 +744,18 @@ section {
 
 .modal-label {
   position: relative;
-  display: flex;
-  flex-direction: column;
+  display: block;
+
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  margin-bottom: 4px;
+}
+
+.modal-form-input {
+  position: relative;
 }
 
 .modal-input {
