@@ -658,13 +658,13 @@ section {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form {
+/* .modal-form {
   position: relative;
   display: flex;
   flex-direction: column;
   gap: 8px;
   padding: 72px 24px 24px 24px;
-}
+} */
 
 .modal-close-btn {
   position: absolute;
