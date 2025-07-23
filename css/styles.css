@@ -444,6 +444,9 @@ section {
   display: flex;
   align-items: baseline;
 }
+.footer-link-container {
+  margin-right: 80px;
+}
 
 .footer-logo-div {
   margin-right: 120px;
@@ -496,6 +499,80 @@ section {
 
 .footer-icons {
   fill: #f4f4fd;
+}
+
+.footer-form-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.footer-icon {
+  width: 20px;
+  height: 20px;
+  fill: #ffffff;
+  margin-left: 16px;
+}
+
+.btn-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  min-width: 165px;
+  font-family: "Roboto", sans-serif;
+  height: 40px;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-footer:hover,
+.btn-footer:focus {
+  background-color: #404bbf;
+}
+
+.footer-input {
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  background-color: transparent;
+  color: #ffffff;
+  padding: 8px 16px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+.footer-input:hover,
+.footer-input:focus {
+  border: 1px solid #4d5ae5;
+}
+.footer-input:active {
+  border: 1px solid #4d5ae5;
+}
+.footer-input::placeholder {
+  color: #ffffff;
 }
 
 /* ----------ЛОГО ХЕДЕР ФУТЕР---------- */
