@@ -832,10 +832,10 @@ section {
   text-decoration: none;
 }
 
-.visually-hidden:checked + .checkbox-icon {
+.visually-hidden:checked + .checkbox-custom-icon {
   background-color: #404bbf;
   border: none;
-  fill: red;
+  fill: #f4f4fd;
 }
 
 .modal-btn {
