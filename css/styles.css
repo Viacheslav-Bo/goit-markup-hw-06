@@ -769,6 +769,10 @@ section {
   fill: #4d5ae5;
 }
 
+.modal-form-textarea {
+  margin-bottom: 16px;
+}
+
 .modal-textarea {
   width: 100%;
   height: 120px;
