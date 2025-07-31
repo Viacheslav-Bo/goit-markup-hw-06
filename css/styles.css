@@ -1,3 +1,4 @@
+/* #region general */
 /* ----------ЗАГАЛЬНІ СТИЛІ---------- */
 body {
   background-color: #ffffff;
@@ -51,7 +52,9 @@ img {
 section {
   padding: 120px 0;
 }
+/* #endregion general */
 
+/* #region header */
 /* ----------ХЕДЕР---------- */
 .header {
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -154,7 +157,9 @@ section {
 .address-list-link:focus {
   color: #404bbf;
 }
+/* #endregion header*/
 
+/* #region 1 section */
 /* ----------ПЕРША СЕКЦІЯ---------- */
 .hero {
   max-width: 1440px;
@@ -215,7 +220,9 @@ section {
 .btn:active {
   background-color: #404bbf;
 }
+/* #endregion 1 section */
 
+/* #region 2 section */
 /* ----------ДРУГА СЕКЦІЯ---------- */
 .visually-hidden {
   position: absolute;
@@ -267,6 +274,9 @@ section {
   letter-spacing: 0.02em;
 }
 
+/* #endregion 2 section*/
+
+/* #region 3 section */
 /* ----------ТРЕТЯ СЕКЦІЯ---------- */
 .team-title {
   text-transform: capitalize;
@@ -351,7 +361,9 @@ section {
 .member-icon-link:focus {
   background-color: #404bbf;
 }
+/* #endregion 3 section*/
 
+/* #region 4 section */
 /* ----------ЧЕТВЕРТА СЕКЦІЯ---------- */
 .portfolio-title {
   text-transform: capitalize;
@@ -434,6 +446,9 @@ section {
   border-top: none;
 }
 
+/* #endregion 4 section */
+
+/* #region footer */
 /* ----------ФУТЕР---------- */
 .footer {
   background-color: #2e2f42;
@@ -574,7 +589,9 @@ section {
 .footer-input::placeholder {
   color: #ffffff;
 }
+/* #endregion footer */
 
+/* #region LOGO */
 /* ----------ЛОГО ХЕДЕР ФУТЕР---------- */
 .logo-web {
   font-family: "Raleway", sans-serif;
@@ -618,7 +635,9 @@ section {
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
+/* #endregion LOGO */
 
+/* #region modal */
 /* -----------------MODAL--------------- */
 .modal-overlay {
   position: fixed;
@@ -864,3 +883,5 @@ section {
 .modal-btn:focus {
   background-color: #404bbf;
 }
+
+/* #endregion modal */
