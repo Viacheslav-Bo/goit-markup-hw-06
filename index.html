@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!------------------------ HEAD ---------------------------->
   <head>
     <link
       rel="stylesheet"
@@ -18,6 +19,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+<!------------------------ HEADER -------------------------->
     <header class="header">
       <div class="container">
         <nav class="nav">
@@ -55,13 +57,14 @@
     </header>
 
     <main>
+<!------------------------ section 1 HERO ------------------>
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="btn" type="button">Order Service</button>
         </div>
       </section>
-
+<!------------------------ section 2 ABOUT ----------------->
       <section class="about">
         <div class="container">
           <h2 class="visually-hidden">About Us</h2>
@@ -118,7 +121,7 @@
           </ul>
         </div>
       </section>
-
+<!------------------------ section 3 TEAM ------------------>
       <section class="team">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
@@ -126,7 +129,7 @@
           <ul class="team-members">
             <li class="team-member-card">
               <img
-                src="./images/img-3.jpg"
+                src="./images/mark.jpg"
                 alt="team member1"
                 width="264"
                 height="260"
@@ -186,7 +189,7 @@
 
             <li class="team-member-card">
               <img
-                src="./images/img-2.jpg"
+                src="./images/tom.jpg"
                 alt="team member2"
                 width="264"
                 height="260"
@@ -245,7 +248,7 @@
 
             <li class="team-member-card">
               <img
-                src="./images/img-1.jpg"
+                src="./images/camila.jpg"
                 alt="team member3"
                 width="264"
                 height="260"
@@ -304,7 +307,7 @@
 
             <li class="team-member-card">
               <img
-                src="./images/img.jpg"
+                src="./images/daniel.jpg"
                 alt="team member4"
                 width="264"
                 height="260"
@@ -363,7 +366,7 @@
           </ul>
         </div>
       </section>
-
+<!------------------------ section 4 PORTFOLIO ------------->
       <section class="portfolio">
         <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
@@ -372,7 +375,7 @@
             <li class="portfolio-item">
               <div class="portfolio-position">
                 <img
-                  src="./images/portfolio-6.jpg"
+                  src="./images/banking.jpg"
                   alt="portfolio6"
                   width="360"
                   height="300"
@@ -392,7 +395,7 @@
             <li class="portfolio-item">
               <div class="portfolio-position">
                 <img
-                  src="./images/portfolio-5.jpg"
+                  src="./images/payment.jpg"
                   alt="portfolio5"
                   width="360"
                   height="300"
@@ -412,7 +415,7 @@
             <li class="portfolio-item">
               <div class="portfolio-position">
                 <img
-                  src="./images/portfolio-4.jpg"
+                  src="./images/app.jpg"
                   alt="portfolio4"
                   width="360"
                   height="300"
@@ -432,7 +435,7 @@
             <li class="portfolio-item">
               <div class="portfolio-position">
                 <img
-                  src="./images/portfolio-3.jpg"
+                  src="./images/taxi.jpg"
                   alt="portfolio3"
                   width="360"
                   height="300"
@@ -452,7 +455,7 @@
             <li class="portfolio-item">
               <div class="portfolio-position">
                 <img
-                  src="./images/portfolio-2.jpg"
+                  src="./images/screen.jpg"
                   alt="portfolio2"
                   width="360"
                   height="300"
@@ -472,7 +475,7 @@
             <li class="portfolio-item">
               <div class="portfolio-position">
                 <img
-                  src="./images/portfolio-1.jpg"
+                  src="./images/courses.jpg"
                   alt="portfolio1"
                   width="360"
                   height="300"
@@ -492,7 +495,7 @@
         </div>
       </section>
     </main>
-
+<!------------------------ section FOOTER ------------------>
     <footer class="footer">
       <div class="footer-main-container container">
         <div class="footer-logo-div">
@@ -571,7 +574,7 @@
         </div>
       </div>
     </footer>
-
+<!------------------------ section MODAL ------------------->
     <div class="modal-overlay">
       <div class="modal">
         <button type="button" class="modal-close-btn">
@@ -654,10 +657,14 @@
               <span class="checkbox-custom-icon">
                 <svg class="checkbox-icon" width="10" height="8">
                   <use href="./images/icons.svg#vector-icon"></use>
-                </svg> </span
-              >I accept the terms and conditions of the
+                </svg>
+              </span>
 
-              <a class="policy" href="policy">Privacy Policy</a>
+              <dic class="privacy-polis-text">
+                I accept the terms and conditions of the
+  
+                <a class="policy" href="policy">Privacy Policy</a>
+              </dic class="privacy-polis-text">
             </label>
           </div>
 
@@ -665,5 +672,100 @@
         </form>
       </div>
     </div>
+
+<!------------------------ section MENU-MOBILE ------------->
+    <div class="menu">
+      <svg class="menu-icon" width="24" height="24">
+        <use href="./images/icons.svg#menu"></use>
+      </svg>
+
+     <div class="menu-overay">
+       <div class="menu-content">
+        <div class="menu-close-btn">
+          <svg class="menu-close-icon">
+            <use href="./images/icons.svg#close-icon"></use>
+          </svg>
+        </div>
+          <nav class="mob-nav">
+           <ul class="mob-nav-list">
+             <li class="mob-nav-item" id="Studio">
+               <a href="./index.html" class="mob-nav-list-link active">Studio</a>
+             </li>
+             <li class="mob-nav-item" id="Portfolio">
+               <a href="" class="mob-nav-list-link">Portfolio</a>
+             </li>
+             <li class="mob-nav-item" id="Contacts">
+               <a href="" class="mob-nav-list-link">Contacts</a>
+             </li>
+           </ul>
+         </nav>
+          <address class="mob-nav-address">
+           <ul class="mob-nav-address-list">
+            <li class="mob-nav-address-item">
+               <a href="tel:+110001111111" class="mob-address-list-link"
+                 >+11 (000) 111-11-11</a
+               >
+             </li>
+             <li class="mob-nav-address-item">
+               <a href="mailto:info@devstudio.com" class="mob-address-list-link"
+                 >info@devstudio.com
+               </a>
+             </li>
+
+             
+           </ul>
+          </address>
+         <div class="mob-nav-socials">
+          <ul class="mob-icons-list">
+            <li class="mob-icons-item">
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="mob-icon-link"
+              >
+                <svg class="mob-icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-icons-item">
+              <a href="https://x.com/" target="_blank" class="footer-icon-link">
+                <svg class="footer-icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-icons-item">
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                class="mob-icon-link"
+              >
+                <svg class="mob-icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-icons-item">
+              <a
+                href="https://ua.linkedin.com/"
+                target="_blank"
+                class="mob-icon-link"
+              >
+                <svg class="mob-icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+
+
+      </div>
+
+      </div>
+    </div>
+
   </body>
 </html>
