@@ -581,6 +581,10 @@ section {
   overflow: hidden;
 }
 
+.portfolio-position img {
+  width: 100%;
+}
+
 @media (min-width: 768px) {
   .portfolio-list {
     flex-direction: row;
