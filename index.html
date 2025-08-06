@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<!------------------------ HEAD ---------------------------->
+  <!--HEAD------>
   <head>
     <link
       rel="stylesheet"
@@ -19,13 +19,16 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-<!------------------------ HEADER -------------------------->
+    <!--HEADER------>
     <header class="header">
       <div class="container">
         <nav class="nav">
           <a href="./index.html" class="logo-web"
             >web<span class="logo-studio-header">Studio</span></a
           >
+          <svg class="menu-icon" width="24" height="24">
+            <use href="./images/icons.svg#menu"></use>
+          </svg>
           <ul class="nav-list">
             <li class="nav-item" id="Studio">
               <a href="./index.html" class="nav-list-link current">Studio</a>
@@ -57,14 +60,14 @@
     </header>
 
     <main>
-<!------------------------ section 1 HERO ------------------>
+      <!--section HERO------>
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="btn" type="button">Order Service</button>
         </div>
       </section>
-<!------------------------ section 2 ABOUT ----------------->
+      <!--section ABOUT------>
       <section class="about">
         <div class="container">
           <h2 class="visually-hidden">About Us</h2>
@@ -121,7 +124,7 @@
           </ul>
         </div>
       </section>
-<!------------------------ section 3 TEAM ------------------>
+      <!--section TEAM------>
       <section class="team">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
@@ -370,7 +373,7 @@
           </ul>
         </div>
       </section>
-<!------------------------ section 4 PORTFOLIO ------------->
+      <!--section PORTFOLIO------>
       <section class="portfolio">
         <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
@@ -505,7 +508,7 @@
         </div>
       </section>
     </main>
-<!------------------------ section FOOTER ------------------>
+    <!--section FOOTER------>
     <footer class="footer">
       <div class="footer-main-container container">
         <div class="footer-tab-container">
@@ -533,7 +536,11 @@
                 </a>
               </li>
               <li class="footer-icons-item">
-                <a href="https://x.com/" target="_blank" class="footer-icon-link">
+                <a
+                  href="https://x.com/"
+                  target="_blank"
+                  class="footer-icon-link"
+                >
                   <svg class="footer-icons" width="24" height="24">
                     <use href="./images/icons.svg#icon-twitter"></use>
                   </svg>
@@ -586,7 +593,7 @@
         </div>
       </div>
     </footer>
-<!------------------------ section MODAL ------------------->
+    <!--section MODAL------>
     <div class="modal-overlay">
       <div class="modal">
         <button type="button" class="modal-close-btn">
@@ -657,7 +664,7 @@
 
           <div class="modal-checkbox-cont">
             <input
-              class="modal-checkbox visually-hidden"
+              class="visually-hidden"
               type="checkbox"
               name="user-privacy"
               id="user-privacy"
@@ -672,11 +679,10 @@
                 </svg>
               </span>
 
-              <div class="privacy-polis-text">
+              <span class="privacy-polis-text">
                 I accept the terms and conditions of the
-  
                 <a class="policy" href="policy">Privacy Policy</a>
-              </div class="privacy-polis-text">
+              </span>
             </label>
           </div>
 
@@ -685,99 +691,94 @@
       </div>
     </div>
 
-<!------------------------ section MENU-MOBILE ------------->
+    <!--MENU-MOBILE------>
     <div class="menu">
-      <svg class="menu-icon" width="24" height="24">
-        <use href="./images/icons.svg#menu"></use>
-      </svg>
-
-     <div class="menu-overay">
-       <div class="menu-content">
+      <div class="menu-content">
         <div class="menu-close-btn">
           <svg class="menu-close-icon">
             <use href="./images/icons.svg#close-icon"></use>
           </svg>
         </div>
-          <nav class="mob-nav">
-           <ul class="mob-nav-list">
-             <li class="mob-nav-item" id="Studio">
-               <a href="./index.html" class="mob-nav-list-link active">Studio</a>
-             </li>
-             <li class="mob-nav-item" id="Portfolio">
-               <a href="" class="mob-nav-list-link">Portfolio</a>
-             </li>
-             <li class="mob-nav-item" id="Contacts">
-               <a href="" class="mob-nav-list-link">Contacts</a>
-             </li>
-           </ul>
-         </nav>
-          <address class="mob-nav-address">
-           <ul class="mob-nav-address-list">
-            <li class="mob-nav-address-item">
-               <a href="tel:+110001111111" class="mob-address-list-link"
-                 >+11 (000) 111-11-11</a
-               >
-             </li>
-             <li class="mob-nav-address-item">
-               <a href="mailto:info@devstudio.com" class="mob-address-list-link"
-                 >info@devstudio.com
-               </a>
-             </li>
-
-             
-           </ul>
-          </address>
-         <div class="mob-nav-socials">
-          <ul class="mob-icons-list">
-            <li class="mob-icons-item">
-              <a
-                href="https://www.instagram.com/"
-                target="_blank"
-                class="mob-icon-link"
-              >
-                <svg class="mob-icons" width="24" height="24">
-                  <use href="./images/icons.svg#icon-instagram"></use>
-                </svg>
-              </a>
+        <nav class="mob-nav">
+          <ul class="mob-nav-list">
+            <li class="mob-nav-item" id="Studio">
+              <a href="./index.html" class="mob-nav-list-link active">Studio</a>
             </li>
-            <li class="mob-icons-item">
-              <a href="https://x.com/" target="_blank" class="footer-icon-link">
-                <svg class="footer-icons" width="24" height="24">
-                  <use href="./images/icons.svg#icon-twitter"></use>
-                </svg>
-              </a>
+            <li class="mob-nav-item" id="Portfolio">
+              <a href="" class="mob-nav-list-link">Portfolio</a>
             </li>
-            <li class="mob-icons-item">
-              <a
-                href="https://www.facebook.com/"
-                target="_blank"
-                class="mob-icon-link"
-              >
-                <svg class="mob-icons" width="24" height="24">
-                  <use href="./images/icons.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="mob-icons-item">
-              <a
-                href="https://ua.linkedin.com/"
-                target="_blank"
-                class="mob-icon-link"
-              >
-                <svg class="mob-icons" width="24" height="24">
-                  <use href="./images/icons.svg#icon-linkedin"></use>
-                </svg>
-              </a>
+            <li class="mob-nav-item" id="Contacts">
+              <a href="" class="mob-nav-list-link">Contacts</a>
             </li>
           </ul>
+        </nav>
+        <div>
+          <address class="mob-nav-address">
+            <ul class="mob-nav-address-list">
+              <li class="mob-nav-address-item">
+                <a href="tel:+110001111111" class="mob-address-list-link"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="mob-nav-address-item">
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="mob-address-list-link"
+                  >info@devstudio.com
+                </a>
+              </li>
+            </ul>
+          </address>
+          <div class="mob-nav-socials">
+            <ul class="mob-icons-list">
+              <li class="mob-icons-item">
+                <a
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  class="mob-icon-link"
+                >
+                  <svg class="mob-icons" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mob-icons-item">
+                <a
+                  href="https://x.com/"
+                  target="_blank"
+                  class="footer-icon-link"
+                >
+                  <svg class="footer-icons" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mob-icons-item">
+                <a
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  class="mob-icon-link"
+                >
+                  <svg class="mob-icons" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mob-icons-item">
+                <a
+                  href="https://ua.linkedin.com/"
+                  target="_blank"
+                  class="mob-icon-link"
+                >
+                  <svg class="mob-icons" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-
-
-
-      </div>
-
       </div>
     </div>
-
   </body>
 </html>
