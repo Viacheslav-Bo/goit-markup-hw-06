@@ -251,6 +251,7 @@ section {
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: auto;
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
@@ -268,7 +269,7 @@ section {
   justify-content: space-between;
   position: absolute;
   width: 100%;
-  height: 100%;
+  min-height: 100%;
   padding: 72px 16px 40px 16px;
   background-color: #fcfcfc;
   border-radius: 4px;
@@ -307,6 +308,9 @@ section {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+}
+
+.mob-nav-item:not(:last-child) {
   margin-bottom: 40px;
 }
 
@@ -332,6 +336,9 @@ section {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+}
+
+.mob-nav-address-item:not(:last-child) {
   margin-bottom: 24px;
 }
 
@@ -377,6 +384,12 @@ section {
   fill: #f4f4fd;
 }
 
+@media (min-width: 768px) {
+  .menu {
+    display: none;
+  }
+}
+
 /* #endregion */
 
 /* #region HERO*/
@@ -389,11 +402,20 @@ section {
   background-image: linear-gradient(to bottom,
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)),
-    url(../images/hero-mob-1x.jpg), url(../images/hero-mob-2x.jpg);
+    url(../images/hero-mob-1x.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+@media (min-resolution:2x) {
+  .hero {
+    background-image: linear-gradient(to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+      url(../images/hero-mob-2x.jpg);
+  }
 }
 
 .hero-title {
@@ -445,7 +467,7 @@ section {
     background-image: linear-gradient(to bottom,
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
-      url(../images/hero-tab-1x.jpg), url(../images/hero-tab-2x.jpg);
+      url(../images/hero-tab-1x.jpg);
   }
 
   .hero-title {
@@ -457,6 +479,15 @@ section {
   .btn {
     margin-top: 36px;
   }
+
+  @media (min-resolution:2x) {
+    .hero {
+      background-image: linear-gradient(to bottom,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)),
+        url(../images/hero-tab-2x.jpg);
+    }
+  }
 }
 
 @media (min-width: 1158px) {
@@ -466,7 +497,7 @@ section {
     background-image: linear-gradient(to bottom,
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
-      url(../images/hero-web-1x.jpg), url(../images/hero-web-2x.jpg);
+      url(../images/hero-web-1x.jpg);
   }
 
   .btn {
@@ -478,9 +509,7 @@ section {
       background-image: linear-gradient(to bottom,
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)),
-        url(../images/hero-2x.jpg);
-
-      background-size: cover;
+        url(../images/hero-web-2x.jpg);
     }
   }
 }
@@ -1117,9 +1146,9 @@ section {
 
 .modal {
   position: absolute;
-  top: 50%;
+  top: 20px;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
   width: 288px;
   min-height: 584px;
   padding: 72px 16px 24px 16px;
@@ -1350,6 +1379,9 @@ section {
 
 @media (min-width: 768px) {
   .modal {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 408px;
     padding-right: 24px;
     padding-left: 24px;
